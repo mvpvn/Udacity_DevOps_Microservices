@@ -14,6 +14,7 @@ kubectl create deploy udacity-api --image=tanquyvt/udacity-api:api-v1
 # List kubernetes pods
 kubectl get pods
 pod_name=`kubectl get pod --field-selector status.phase=Running --output name`
+echo "Pod name: " $pod_name
 
 # Step 4:
 # Forward the container port to a host
