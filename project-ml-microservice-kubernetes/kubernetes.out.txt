@@ -1,0 +1,5 @@
+NAME                           READY   STATUS    RESTARTS   AGE
+udacity-api-55845dfcbf-c5fml   1/1     Running   0          51m
+Forwarding from 0.0.0.0:8000 -> 80
+Handling connection for 8000
+
